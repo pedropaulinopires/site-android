@@ -9,17 +9,17 @@
     <title>Curiosidade do mascote do android</title>
   </head>
   <body>
-    <header>
+    <header id="home">
       <h1>Curiosidades de Tecnologia</h1>
       <p>
         Tudo aquilo que você sempre quis saber sobre o mundo Tech, em um único
         lugar
       </p>
     </header>
-    <nav>
-      <a style="margin-left: 20px" href="">Home</a>
-      <a href="">Notícias</a>
-      <a href="">Contato</a>
+    <nav class="menu">
+      <a style="margin-left: 20px" href="#home" target="_self" rel="internal">Home</a>
+      <a href="#curiosidade" rel="internal" target="_self">Curiosidade</a>
+      <a href="https://www.instagram.com/pedropaulinopires/" target="_blank" rel="external">Contato</a>
     </nav>
     <main>
       <article>
@@ -91,9 +91,9 @@
           escritório do Google e olhou para o lado dos banheiros e a
           identificação foi imediata: simples, limpo, objetivo.
         </p>
-        <div class="video">
+        <div class="video" >
           <iframe 
-            width="560"
+            width="560" 
             height="315"
             src="https://www.youtube.com/embed/l2UDgpLz20M"
             title="YouTube video player"
@@ -101,8 +101,8 @@
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
           ></iframe>
-        </div>
-        <aside>
+        </div   >
+        <aside id="curiosidade">
           <h3>Quer aprender mais?</h3>
           <p>
             Outro assunto curioso em relação ao Android é que cada versão sempre
@@ -163,5 +163,6 @@
         para os Estudos.
       </p>
     </footer>
+    <script src="script/scroll.js"></script>
   </body>
 </html>
