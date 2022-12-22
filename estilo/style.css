@@ -146,7 +146,7 @@ iframe{
 }
 
 aside {
-  background-color: var(--cor-3);
+  background-color: rgb(172, 237, 172);
   padding: 10px;
   border-radius: 10px;
   margin-top: 30px;
